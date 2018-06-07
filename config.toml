@@ -1,0 +1,46 @@
+baseurl = "https://www.dshkol.com/"
+publishDir = "public"
+title = "Scratchpad"
+theme = "ghostwriter"
+languageCode = "en-us"
+copyright = "Dmitry Shkolnik"
+disqusShortname = "dshkol"
+googleAnalytics = "UA-107390160-1"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+
+[Author]
+    name = "Dmitry Shkolnik"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    intro = true
+    headline = "Scratchpad"
+    description = "blog blog blog"
+    github = "https://github.com/dshkol"
+    linkedin = "https://linkedin.com/in/dmitryshkolnik/"
+    twitter = "https://twitter.com/dshkol"
+    email = "shkolnikd@gmail.com"
+    opengraph = true
+    shareTwitter = true
+    shareFacebook = true
+    shareGooglePlus = true
+    shareLinkedIn = true
+    dateFormat = "Mon, Jan 2, 2006"
+    highlightJsUrl = ""
+    highlightJsLocalUrl = ""
+
+[Permalinks]
+    post = "/:year/:slug/"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 4
